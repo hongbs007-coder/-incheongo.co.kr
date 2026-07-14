@@ -2,8 +2,8 @@
   publish = "."
 
 [[redirects]]
-  from = "https://www.도메인/*"
-  to = "https://도메인/:splat"
+from = "https://www.incheongo.co.kr/*"
+to = "https://incheongo.co.kr/:splat"
   status = 301
   force = true
 
