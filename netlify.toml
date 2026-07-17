@@ -2,10 +2,16 @@
   publish = "."
 
 [[redirects]]
-from = "https://www.incheongo.co.kr/*"
-to = "https://incheongo.co.kr/:splat"
+  from = "https://www.incheongo.co.kr/*"
+  to = "https://incheongo.co.kr/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat/"
+  status = 301
+  force = false
 
 [[headers]]
   for = "/*"
